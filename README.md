@@ -49,9 +49,6 @@ travel-website/
 🔧 Setup Instructions
 1. Clone the Repository
 bash
-Copy code
-git clone https://github.com/your-username/travel-website.git
-cd travel-website
 2. Run the Backend
 Based on your stack, here's a generic example (adjust accordingly):
 
@@ -69,17 +66,15 @@ Copy code
 cd backend
 npm install
 node server.js
-The backend will start on http://localhost:5000 or similar.
+
 
 3. Open the Website
 You can open frontend/index.html directly, or serve the frontend through the backend.
 
 💡 Booking Functionality
 Users fill out a form to book flights/hotels
-
 Backend validates and stores the booking data
-
-Confirmation is displayed to the user or emailed (if email integration is added)
+Confirmation is displayed to the user 
 
 🔐 Security Considerations
 Input validation for all booking forms
